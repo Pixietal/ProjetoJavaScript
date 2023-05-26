@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+ <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um blog de economia com diversos artigos e atualizações sobre o Mercado Financeiro">
+    <title>Blog Talita Cardoso</title>
+   
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/app-bar.css">
+   <link rel="stylesheet" href="./css/cabecalho.css">
+   <link rel="stylesheet" href="./css/drawer.css">
+   <link rel="stylesheet" href="./css/formulario.css">
+   <link rel="stylesheet" href="./css/instagram.css">
+   <link rel="stylesheet" href="./css/comments.css">
+   <link rel="stylesheet" href="./css/banner.css">
+   <link rel="stylesheet" href="./css/contact-form.css">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    
+</head>
+
+<body>
+  
+  <!-- app bar início -->
+  <header class="app-bar">
+    <div class="app-bar-esquerda">
+      <div class="app-bar-logo-container">
+        <a href="/" class="app-bar-link">
+          <img src="./imagens/icon.png" alt="Logo da página" class="app-bar-logo"></a>
+      </div>
+      <div class="app-bar-links">
+        <a href="/" class="app-bar-link">Home</a>
+        
+       <ul>
+         <li><a href="/" class="app-bar-link">Publicações</a>
+         
+           <ul> 
+           <li><a href="/postagens/fintechs.html" class="selecionar-publi">Fintechs</a>
+           <li><a href="./postagens/influenciadores.html" class="selecionar-publi">Responsabilidade Civil</a>
+           <li><a href="./postagens/riscos.html" class="selecionar-publi">Risco, Compliance e Controle</a>
+           </li></ul>
+         </li></ul>
+        
+      </div>
+    </div>
+    
+    <div class="app-bar-direita">
+      <a href="https://www.instagram.com/_talitac_/?igshid=YmMyMTA2M2Y%3D" class="app-bar-link">
+      <img src="./imagens/instagram.png" alt="Instagram" class="app-bar-icon"></a>
+      <a href="https://www.linkedin.com/in/talic98" class="app-bar-link">
+      <img src="./imagens/linkedin.png" alt="Linkedin" class="app-bar-icon"></a>
+      <button id="button-app-bar" class="hamburger-button">
+  <img src="./imagens/hamburger.png">
+  </button>
+    </div>
+  
+  </header>
+    <!-- app bar fim -->
+
+  
+    <!-- drawer inicio -->
+    <aside id="drawer" class="drawer">
+      <a href="./postagens/fintechs.html" class="link-postagem">Uma análise sobre a evolução das Fintechs no Brasil no período de 2013 a 2021</a>
+      <a href="./postagens/influenciadores.html" class="link-postagem">A Responsabilidade Civil dos influenciadores digitais frente aos
+danos gerados pela divulgação de produtos e serviços</a>
+      <a href="./postagens/riscos.html" class="link-postagem">Gestão integrada de riscos, compliance e controles internos da gestão</a>
+      
+    </aside>
+  
+    <!--drawer fim -->
+  
+    <!-- banner inicio -->
+  
+    <section id="banner" class="banner">
+    </section>
+  
+    <!-- banner fim -->
+  
+    <!-- conteúdo início -->
+    <div class="conteudo">
+      <div class="intro-paragrafo">
+        <p>Olá! Meu nome é Talita Cardoso, sou formada em Economia pela UFRRJ e faço pós-graduação em Desenvolvimento Web Full Stack pelo Instituto INFNET.</p> 
+        <p>Criei esse blog de Economia com o objetivo de treinar as minhas habilidades e também disponibilizar conteúdos educativos. Aqui você encontrará temas como: Finanças, Direito e Tecnologia, além de ter acesso as principais atualizações do Mercado Financeiro e a diversos trabalhos acadêmicos.</p>
+      </div>
+      
+      <div class="links-container">
+    <!-- link item1 início -->
+        <div class="link-item">
+          <div class="link-conteudo">
+          <span class="link-data">Dezembro de 2021</span>
+        <a href="/postagens/fintechs.html" class="link-postagem">Uma análise sobre a evolução das Fintechs no Brasil no período de 2013 a 2021</a>
+      </div>
+    <div class="link-imagem-container">
+      <img src="/imagens/fintechs.jpg" alt="Imagem Fintechs" class="link-imagem">
+    </div></div>
+  <!-- link item1 fim -->
+
+  <!-- link item2 início -->
+        <div class="link-item">
+          <div class="link-conteudo">
+          <span class="link-data">Dezembro de 2022</span>
+        <a href="/postagens/influenciadores.html" class="link-postagem">A Responsabilidade Civil dos influenciadores digitais frente aos
+danos gerados pela divulgação de produtos e serviços</a>
+      </div>
+    <div class="link-imagem-container">
+      <img src="/imagens/midias.jpg" alt="Imagem Redes Sociais" class="link-imagem">
+    </div></div>
+  <!-- link item2 fim -->
+
+  <!-- link item3 início -->
+        <div class="link-item">
+          <div class="link-conteudo">
+          <span class="link-data">Janeiro de 2023</span>
+        <a href="/postagens/riscos.html" class="link-postagem">Gestão integrada de riscos, compliance e controles internos da gestão</a>
+      </div>
+    <div class="link-imagem-container">
+      <img src="/imagens/risco.jpg" alt="Imagem Risco e Compliance" class="link-imagem">
+    </div></div>
+  <!-- link item3 fim -->
+      </div></div>
+  <!-- conteudo fim -->
+
+  <!--instagram inicio -->
+  
+  <section id="instagram-section" class="instagram-section">
+    <div id="instagram-grid" class="instagram-grid"></div>
+    
+    <div id="instagram-backdrop" class="instagram-backdrop">
+    <div id="instagram-modal" class="instagram-modal">
+      <img  class="instagram-modal-imagem" id="instagram-modal-imagem" src="./imagens/risco.jpg">
+      <div class="instagram-modal-conteudo">
+      <h3 class="instagram-modal-titulo" id="instagram-modal-titulo"></h3>
+      <p class="instagram-modal-texto" id="instagram-modal-texto"></p>
+    </div>
+    <div class="instagram-modal-acoes">
+      <button id="instagram-modal-fechar" class="instagram-modal-botao">Fechar</button>
+    </div>
+    </div>
+    </div>
+  </section>
+  
+  <!--instagram fim -->
+
+  <!-- comments início -->
+  <section id="comments-section" class="comments-section">
+    <div id="comments-list" class="comments-list">
+      
+    </div>
+  </section>
+  <!-- comments fim -->
+
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_970b1"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "br",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_970b1"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  
+  <!-- form contato início -->
+  
+  <div class="form-contato-container">
+    <form class="form-contato" id="form-contato" method="post" action="https://getform.io/f/17a9e574-07ad-4ba6-b207-bff89bee5af8">
+      <h2 class="form-titulo">Entrar em contato</h2>
+      <div class="form-item">
+        <label for="form-nome">Nome completo</label>
+        <input type="text" placeholder="Digite o seu nome completo" id="form-nome" name="form-nome" class="form-nome-texto field-error">
+      </div>
+
+    <span class="field-error-message" id="form-nome-error-message"></span>
+
+      <div class="form-item">
+        <label for="form-email">E-mail para contato</label>
+        <input type="email" placeholder="Digite o seu e-mail" id="form-email" name="form-email" class="form-nome-texto">
+      </div>
+
+      <div class="form-item">
+        <label for="form-numero">Telefone para contato</label>
+        <input type="tel" placeholder="Digite o seu número de telefone" id="form-numero" name="form-numero" class="form-nome-texto">
+      </div>
+
+    <div class="form-item">
+      <textarea placeholder="Digite aqui o seu comentário, sugestão ou dúvida." id="form-mensagem" name="form-mensagem" class="form-campo-textarea" rows="8"></textarea>
+    </div>
+
+      <!-- pesquisa de satisfação inicio -->
+     <div class="pesquisa">
+      <div class="pesquisa-titulo">
+      <div class="pesquisa-satisfacao"> O que achou do blog? </div>
+       <div class="pesquisa-itens">
+    <ul>
+      <li><input type="radio" value="Maravilhoso" name="pesquisa-satisfação"> &#128525; </li>
+      <li><input type="radio" value="Otimo" name="pesquisa-satisfação"> &#128522; </li>
+      <li><input type="radio" value="Bom" name="pesquisa-satisfação"> &#128529; </li> 
+      <li><input type="radio" value="Ruim" name="pesquisa-satisfação"> &#128545; </li>
+    </ul>
+      
+  </div></div></div>
+
+    <!--pesquisa de satisfação fim -->
+
+  <div class="form-item-inline">
+    <input type="checkbox" name="form-inscrever" class=form-inscricao checked> 
+    <label id="form-inscrever">Eu desejo receber atualizações por e-mail</label>
+
+  <div class="form-item">
+    <input type="submit" value="Enviar" class="form-botao-enviar">
+  </div></div>
+
+      
+    </form>
+</div>
+    <!-- form contato fim --> 
+
+  <script src="./js/drawer.js"> </script>
+  <script src="./js/instagram.js"> </script>
+  <script src="./js/comments.js"> </script>
+  <script src="./js/banner.js"> </script>
+  <script src="./js/contact-form.js"></script>
+  
+</body>
+  
+</html>

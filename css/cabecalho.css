@@ -1,0 +1,104 @@
+/*conteudo inicio*/
+
+.conteudo{
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.intro-paragrafo{
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.7;
+  text-align: center;
+  background-color: #A9BA9D;
+  font-weight: bold;
+  padding: 3%;
+}
+
+.conteudo-paragrafo{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 12px;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.cabecalho-titulo{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.links-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-item{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link-conteudo{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-data{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.link-postagem{
+  color: #014421;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link-imagem{
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.link-imagem-container{
+  text-align: center;
+}
+
+.autor{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 3%;
+}
+
+.video{
+  text-align: center;
+  padding: 3%; 
+}
+
+.lista-tags{
+  margin-bottom: 10px;
+  margin: 10px;
+}
+
+.tag{
+  background-color: #679267;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  color: white;
+}
+
+/*conteudo fim*/

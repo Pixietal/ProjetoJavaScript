@@ -1,0 +1,43 @@
+.comments-section {
+  padding: 2% 0;
+}
+
+.comments-list{
+  max-width: 640px;
+  margin: auto;
+}
+
+.comments-list-item{
+  margin: 10px;
+}
+
+.comments-list-item-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.comments-list-item-info{
+ display: flex;
+ flex-direction: row;
+gap: 8px;
+}
+
+.comments-list-item-info-content{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.comments-list-item-username{
+  font-variant: small-caps;  
+}
+
+.comments-list-item-created-at{
+  font-size: 12px;
+}
+
+.comments-list-item-message{
+  font-size: 13px;
+}

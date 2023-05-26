@@ -1,0 +1,8 @@
+.field-error{
+  border-color: solid 3px red;
+}
+
+.field-error-message{
+  font-size: 12px;
+  color: red;
+}

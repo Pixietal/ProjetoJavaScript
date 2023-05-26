@@ -1,0 +1,73 @@
+/*formulario inicio*/ 
+
+.form-contato-container{
+  background-color: #A9BA9D;
+  background-image: url("/imagens/pessoacomgrafico.png");
+  background-size: cover;
+}
+
+.form-contato{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5%;
+  font-size: 14px; 
+}
+
+.form-titulo{
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-nome-texto{
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.form-campo-textarea{
+  padding: 8px;
+  border: none;
+  resize: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.pesquisa{
+  display: flex;
+  font-size: 14px;
+  gap: 16px;
+}
+
+.pesquisa-itens {
+  display: flex;
+  font-size: 18px;
+}
+
+
+.form-botao-enviar{
+  display: flex;
+  border: none;
+  border-radius: 100px;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor:pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-botao-enviar:hover{
+  background-color: #3EB489;
+  color:white;
+}
+
