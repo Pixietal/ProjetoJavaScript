@@ -2,7 +2,7 @@
 
 .form-contato-container{
   background-color: #A9BA9D;
-  background-image: url("/imagens/pessoacomgrafico.png");
+  background-image: url("../imagens/pessoacomgrafico.png");
   background-size: cover;
 }
 
