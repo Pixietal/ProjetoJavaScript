@@ -11,7 +11,7 @@ instagramModalFechar.onclick = () => {
 };                                                  
 
 async function loadInstagramImages() {
-  const response = await fetch('/json/instagram.json');
+  const response = await fetch('./json/instagram.json');
   const instagramImages = await response.json();
   
   instagramImages.forEach(cat => {
