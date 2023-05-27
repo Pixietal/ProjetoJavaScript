@@ -1,16 +1,16 @@
 [
   {
-    "thumbnail": "./imagens/principios.png",
+    "thumbnail": "../imagens/principios.png",
     "titulo": "Os 4 princípios da Economia",
     "texto": "A economia é uma ciência social cujo objeto de estudo é a maneira como recursos limitados são administrados para satisfazer necessidades ilimitadas. Assim, essa ciência também estuda o comportamento da sociedade, bem como as ações realizadas pelos próprios indivíduos."
   },
   {
-    "thumbnail": "./imagens/economiacircular.png",
+    "thumbnail": "../imagens/economiacircular.png",
     "titulo": "Economia Circular",
     "texto": "Economia circular é um conceito que associa desenvolvimento econômico a um melhor uso de recursos naturais, por meio de novos modelos de negócios e da otimização nos processos de fabricação com menor dependência de matéria-prima virgem, priorizando insumos mais duráveis, recicláveis e renováveis."
   },
   {
-    "thumbnail": "./imagens/ecosolidaria.jpg",
+    "thumbnail": "../imagens/ecosolidaria.jpg",
     "titulo": "Economia Solidária",
     "texto": "Economia solidária é uma forma de produção, consumo e distribuição de riqueza (economia) centrada na valorização do ser humano e não do capital."
   }
