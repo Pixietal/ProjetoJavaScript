@@ -1,12 +1,12 @@
 const bannerImgs = [
 
-img="./imagens/map.jpg",
+"./imagens/map.jpg",
 
-img="./imagens/grafic.jpg",
+"./imagens/grafic.jpg",
 
-img="./imagens/money.jpg",
+"./imagens/money.jpg",
 
-img="./imagens/code.jpg",
+"./imagens/code.jpg",
 
 ];
 
